@@ -1,6 +1,6 @@
-package com.red30tech.cache.api;
+package com.localhost.cache.api;
 
-import com.red30tech.cache.implementation.InMemoryCache;
+import com.localhost.cache.implementation.InMemoryCache;
 
 /**
  * @author Pradeep Arya

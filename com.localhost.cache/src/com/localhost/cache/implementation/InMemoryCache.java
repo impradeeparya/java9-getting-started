@@ -1,6 +1,6 @@
-package com.red30tech.cache.implementation;
+package com.localhost.cache.implementation;
 
-import com.red30tech.cache.api.ApplicationCache;
+import com.localhost.cache.api.ApplicationCache;
 
 import java.util.HashMap;
 import java.util.Map;

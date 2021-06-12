@@ -1,6 +1,6 @@
-package com.red30tech.database.api;
+package com.localhost.database.api;
 
-import com.red30tech.database.implementation.InMemoryDatabase;
+import com.localhost.database.implementation.InMemoryDatabase;
 
 public class DatabaseFactory {
     public Database getDatabase() {

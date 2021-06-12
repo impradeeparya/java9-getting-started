@@ -1,8 +1,8 @@
-package com.red30tech.database.implementation;
+package com.localhost.database.implementation;
 
-import com.red30tech.cache.api.ApplicationCache;
-import com.red30tech.cache.api.ApplicationCacheFactory;
-import com.red30tech.database.api.Database;
+import com.localhost.cache.api.ApplicationCache;
+import com.localhost.cache.api.ApplicationCacheFactory;
+import com.localhost.database.api.Database;
 
 import java.util.Optional;
 
