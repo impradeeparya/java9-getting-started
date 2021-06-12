@@ -1,12 +1,16 @@
 package com.red30tech.database.api;
 
-public interface Database<T> {
+import java.util.Optional;
 
-    T save(T data);
+public interface Database<T, K> {
 
-    T fetchById(String id);
+    void init();
 
-    T update(T data);
+    Optional<T> save(K id, T data);
 
-    T delete(T data);
+    Optional<T> fetchById(K id);
+
+    Optional<T> update(K id, T data);
+
+    Optional<T> delete(K id);
 }
